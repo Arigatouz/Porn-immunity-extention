@@ -1,0 +1,41 @@
+ h1{
+   position: absolute !important; 
+   top: 40%  !important;
+   left: 30%  !important;
+   font-size: 200px  !important;
+ } 
+.rainbow{
+  animation: rainbow 1000ms;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes rainbow {
+  0% {
+   background-color:  red;
+  }
+
+  15% {
+    background-color: orange;
+  }
+
+  30% {
+    background-color: yellow;
+  }
+
+  45% {
+    background-color: green;
+  }
+
+  60% {
+    background-color: blue;
+  }
+
+  75% {
+    background-color: indigo;
+  }
+
+  90% {
+    background-color: purple;
+  }
+}

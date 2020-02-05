@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Sex Immunity",
+  "version": "0.1.0",
+
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": ["<all_urls>"],
+      "js": ["app.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
